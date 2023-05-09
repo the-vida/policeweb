@@ -1,0 +1,21 @@
+<!-- 
+This is where the user gets redirected after authenticating
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finishing login</title>
+    <script src="https://cdn.lstv.ml/ls/js.min/tiny,dialog,modal,events"></script>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <script>
+        document.cookie="auth="+U(U().href.replace("#","?")).params().access_token+";path=/";
+        U(U().origin+"/dashboard").goTo()
+    </script>
+    <h1>Completing...</h1>
+</body>
+</html>

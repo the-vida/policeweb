@@ -1,0 +1,302 @@
+<!doctype html>
+<html dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="/">
+	<title>OneState Police Faction</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/img/logo2.png">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&family=Lato:300,400,600,700,800,900&family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.lstv.ml/ls/css/base,ls-fluent,modal,dialog">
+	<script src="https://cdn.lstv.ml/ls/js.min/tiny,dialog,modal,events"></script>
+	<link rel="stylesheet" href="/static/main.css">
+  
+  <link rel="stylesheet" href="gadgets.css">
+	<script src="/static/user.js"></script>
+</head>
+
+<body>
+	<div id="loader">
+		<div class="loading">
+			<span></span>
+		</div>
+	</div>
+	<div id="page">
+		<nav>
+			<div class="logo noselect">
+				<img class="noselect" src="/img/logo.png"> OneState
+			</div>
+
+			<div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+			<ul class="mainMenu noselect">
+				<li><a href="/dashboard"><i class="fas fa-home"></i> Home</a></li>
+				<li><a class="active" href="/gadgets"><i class="fas fa-book"></i> Gadgets</a></li>
+				<li><a href="/files"><i class="fas fa-folder"></i> Files</a></li>
+				<li><a class="invite noselect btn-primary2" href="/" target="_none"><i
+							class="fa fa-user-minus"></i> Logout</a></li>
+				<div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+			</ul>
+		</nav>
+
+    <div class="container clear noselect">
+      <div class="row wrapper">
+
+        <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+        <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+        <div class="sidepanel">
+          <div class="divider left"></div>
+
+          <a class="title" href="#">Introduction</a>
+
+          <a class="section" href="#introduction">About this Bot</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#technology">Getting Started</a>
+
+          <a class="section" href="#inbothelp">In-Bot Help</a>
+          <a class="section" href="#addingthebot">Adding the Bot</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#commands">Commands</a>
+
+          <a class="section" href="#anime">Anime</a>
+          <a class="section" href="#sfw">Shortcuts</a>
+          <a class="sub-section" href="#autoNSFW">Auto NSFW</a>
+          <a class="section" href="#config">Config</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#premium">Premium</a>
+
+          <div class="space double"></div>
+
+        </div>
+
+        <div class="right-col">
+          <h1 id="introduction">Introduction</h1>
+
+          <p id="aboutthisbot">This website serves to facilitate the work for police officers.</p>
+
+          <h2>About this Website</h2>
+
+          <p id="technology">You will find here shortcuts, gadgets, useful information for new police officers and lot more!</p>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>Getting Started</h1>
+
+          <p id="inbothelp">To get started with our bot is fairly easy and we have done our best to make it simpler for
+            you.</p>
+
+          <h1>In-bot help</h1>
+
+          <p>There is also a in-bot gettingstarted command that you can use if you know the installation process.<br>
+            You also have the option to get help on all the bot commands right through discord with the use of the
+            bot's internal help command.</p>
+
+          <p id="addingthebot"><b>Important:</b> You must agree to our imagepolicy and matter regarding it will be
+            fairly strict.<br> Use <span class="codeBlock">dh imagepolicy </span> for more information.</p>
+
+
+          <h2>Adding the bot</h2>
+
+          <p id="commands">To add the bot to your server <a href="https://dsc.gg/sampmonitor" target="_none">click
+              here.</a><br><br>This does needs you to either be the owner of the server or have "manage server"
+            permissions.</p>
+
+
+          <div id="anime" class="divider" style="width:24%; margin:30px 0;"></div>
+
+
+          <h1>Commands</h1>
+          <ul>
+            <div>
+              <li> Police radio : <span class="codeBlock">/flobby</span> </li>
+              <br>
+              You can do <span class="codeBlock">/flobby (message)</span> to add message.
+              <br><br>
+            </div>
+            <li>Image and action Commands</li>
+            <div> With action commands you can also mention users while executing the command.</div>
+            <div>
+              <ul>
+                <li><span class="codeBlock">animememes</span></li>
+                <li><span class="codeBlock">waifu</span></li>
+                <li><span class="codeBlock">tickle</span></li>
+                <li><span class="codeBlock">baka</span></li>
+                <li><span class="codeBlock">lewd</span></li>
+                <li><span class="codeBlock">bully</span></li>
+                <li><span class="codeBlock">megumin</span></li>
+                <li><span class="codeBlock">cuddle</span></li>
+                <li><span class="codeBlock">kiss</span></li>
+                <li><span class="codeBlock">smug</span></li>
+                <li><span class="codeBlock">bonk</span></li>
+                <li><span class="codeBlock">slap</span></li>
+                <li><span class="codeBlock">sex</span></li>
+                <li><span class="codeBlock">kill</span></li>
+                <li><span class="codeBlock">cringe</span></li>
+                <li><span class="codeBlock">blush</span></li>
+                <li><span class="codeBlock">headpat</span></li>
+                <li><span class="codeBlock">facepalm</span></li>
+                <li><span class="codeBlock">wink</span></li>
+                <li><span class="codeBlock">hug</span></li>
+                <li><span class="codeBlock">animefood</span></li>
+              </ul>
+              <br>
+            </div>
+            <li>Fact Commands</li>
+            <ul>
+              <li><span class="codeBlock">dogfact</span></li>
+              <li><span class="codeBlock">catfact</span></li>
+              <li><span class="codeBlock">pandafact</span></li>
+              <li><span class="codeBlock">numberfact</span></li>
+              <li><span class="codeBlock">yearfact</span></li>
+              <li><span class="codeBlock">aquote</span></li>
+            </ul>
+            <br>
+            <li>Handy Commands</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">welcome</span></li>
+                <li><span class="codeBlock">lenny</span></li>
+                <li><span class="codeBlock">ping</span></li>
+                <li><span class="codeBlock">invite</span></li>
+                <li><span class="codeBlock">F</span></li>
+                <li><span class="codeBlock">hi</span></li>
+                <li><span class="codeBlock">flip</span></li>
+                <li><span class="codeBlock">calc</span></li>
+                <li><span class="codeBlock">owofy</span></li>
+                <li><span class="codeBlock">wallpaper</span></li>
+                <li><span class="codeBlock">enlarge</span></li>
+                <li><span class="codeBlock">topic</span></li>
+                <li><span class="codeBlock">stats</span></li>
+                <li><span class="codeBlock">userinfo ( whois, ui )</span></li>
+                <li><span class="codeBlock">serverinfo</span></li>
+              </ul>
+
+              <br id="nsfw">
+          </ul>
+
+          <h2>NSFW</h2>
+          <ul>
+            <li>Key</li>
+            <div>
+              All the NSFW commands need a NSFW enabled channel, you can use <span class="codeBlock">dh set_nsfw</span>
+              to do so.
+              <br><br>
+            </div>
+            <li>Syntax</li>
+            <div>
+              All the NSFW commands have the same syntax : <span class="codeBlock">dh < command name> [ amount of images
+                  ] </span>
+              <br>
+              <span>Note: Amount limit is 10.</span>
+              <br id="nsfwTags"><br>
+            </div>
+            <li>Tags</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">nsfw</span></li>
+                <li><span class="codeBlock">oppai</span></li>
+                <li><span class="codeBlock">blowjob</span></li>
+                <li><span class="codeBlock">ass</span></li>
+                <li><span class="codeBlock">anal</span></li>
+                <li><span class="codeBlock">pussy</span></li>
+                <li><span class="codeBlock">neko</span></li>
+                <li><span class="codeBlock">orgy</span></li>
+                <li><span class="codeBlock">glasses</span></li>
+                <li><span class="codeBlock">solo</span></li>
+                <li><span class="codeBlock">cum</span></li>
+                <li><span class="codeBlock">uniform</span></li>
+                <li><span class="codeBlock">public</span></li>
+                <li><span class="codeBlock">thighs</span></li>
+                <li><span class="codeBlock">creampie</span></li>
+                <li><span class="codeBlock">cockold</span></li>
+                <li><span class="codeBlock">pantyhose</span></li>
+                <li><span class="codeBlock">gangbang</span></li>
+                <li><span class="codeBlock">boobjob</span></li>
+                <li><span class="codeBlock">erofeet</span></li>
+                <li><span class="codeBlock">femdom</span></li>
+                <li><span class="codeBlock">trap</span></li>
+                <li><span class="codeBlock">futanari</span></li>
+                <li><span class="codeBlock">furry</span></li>
+              </ul>
+              <br>
+            </div>
+            <li>Specific Tags</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">zerotwo</span></li>
+                <li><span class="codeBlock">konosuba</span></li>
+                <li><span class="codeBlock">tsundae</span></li>
+                <li id="autoNSFW"><span class="codeBlock">rem</span></li>
+              </ul>
+              <br>
+            </div>
+            <li id="config">Auto NSFW</li>
+            <div>
+              Description : You can enable Auto NSFW in a channel to send NSFW in provided time interval.
+              <br>
+              Syntax : <span class="codeBlock">dh autonsfw < enable | disable> [ your tag choice ] [ time ]</span>
+              <br>
+              Example : <span class="codeBlock">dh autonsfw enable public 1</span>
+              <br>
+            </div>
+          </ul>
+
+          <h2>Config</h2>
+          <ul>
+            <li class="collapsible">Enable Command</li>
+            <div class="cmdCollapse">
+              Description : Let's you enable any disabled command.
+              <br>
+              Example : <span class="codeBlock">dh enable nsfw</span>
+              <br>
+            </div>
+
+            <li class="collapsible">Disable Command</li>
+            <div class="cmdCollapse">
+              Description : Let's you disable any command.
+              <br>
+              Example : <span class="codeBlock">dh disable nsfw</span>
+              <br>
+            </div>
+
+            <li class="collapsible">List Disabled Commands</li>
+            <div class="cmdCollapse">
+              Description : Lists all the disbaled commands in the server.
+              <br>
+              Example : <span class="codeBlock">dh listdisabledcommands</span>
+              <br>
+            </div>
+          </ul>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1 id="premium">Premium</h1>
+
+          <ul>
+
+            <li>Status : Offline</li>
+            <li>About me : No Results </li>
+            <li>Prefix : ^ </li>
+            <!-- <li></li> -->
+          </ul>
+          <div class="doublespace"></div>
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="/static/main.js"></script>
+  <script src="gadgets.js"></script>
+</body>
+
+</html>

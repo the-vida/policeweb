@@ -1,0 +1,24 @@
+<!-- 
+This is where the user gets redirected after authenticating
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finishing login</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&family=Lato:300,400,600,700,800,900&family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.lstv.ml/ls/css/base,ls-fluent,modal,dialog">
+	<script src="https://cdn.lstv.ml/ls/js.min/tiny,dialog,modal,events"></script>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body ls ls-fluent>
+    <script>
+        alert("Error with login!",{cancelable:false,title:"Error",onclose:()=>{
+            //Zpátky na hlavní stránku
+            U(U().origin).goTo()
+        }})
+    </script>
+</body>
+</html>
